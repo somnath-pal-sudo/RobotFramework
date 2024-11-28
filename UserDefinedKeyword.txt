@@ -1,0 +1,7 @@
+*** Variables ***
+${comp1}          10
+${comp2}          10
+
+*** Keywords ***
+Comparetwovariables
+    Should Be Equal As Integers    ${comp1}    ${comp2}
