@@ -1,0 +1,5 @@
+*** Settings ***
+Library           ExcelLibrary
+Library           SeleniumLibrary
+Resource          CommnlyUsedKeywords.robot
+Library           Myfile.py
